@@ -1,0 +1,174 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #038f62;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.capacity {
+  height: 100%;
+  width: 15%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capacity > p {
+  color: #038f62;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+header > ul {
+  display: flex;
+  list-style: none;
+  width: 20%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > ul > li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+}
+
+.first {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(img/bg.png);
+  background-position: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 90vh;
+}
+
+.first > h1 {
+  font-family: sans-serif;
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: white;
+}
+
+.first > p {
+  color: #038f62;
+  font-size: 3rem;
+  margin-top: 0;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.second {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #303841;
+  flex-direction: column;
+}
+
+.words {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.words > h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+
+.words > p {
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+
+  flex: 1;
+  justify-content: center;
+  color: white;
+}
+
+.icons > :nth-child(1) {
+  margin-right: 5px;
+  font-size: 1.5rem;
+}
+
+.icons > :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.socials {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.direct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+footer {
+  background-color: #303841;
+  border-top: solid 2px #166c54;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer > .footer {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.footer > p {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+}
+
+.footer > i {
+  color: white;
+}
+
+footer > p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+}
